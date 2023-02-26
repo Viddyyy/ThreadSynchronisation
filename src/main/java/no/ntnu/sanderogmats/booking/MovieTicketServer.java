@@ -23,7 +23,7 @@ try {
     stringChecker(movieName);
     numberChecker(seats);
     }catch (IllegalArgumentException illegalArgumentException) {
-        MovieTicketServer.logger.warning("IllegalArgumentException was caught:");
+        MovieTicketServer.logger.warning("IllegalArgumentException was caught");
     }
     this.movieName = movieName;
     this.seats = seats;
